@@ -1,0 +1,17 @@
+.gallery-img {
+  align-items: flex-end;
+  background-position: center;
+  display: flex;
+  height: 400px;
+  margin: 10px 0;
+}
+
+.gallery .gallery-img div {
+  color: #373737;
+  margin: 0 0 20px 20px;
+}
+
+.gallery .gallery-img div p {
+  margin-top: 0;
+  font-size: 30px;
+}

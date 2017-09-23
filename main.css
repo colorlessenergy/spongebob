@@ -4,3 +4,5 @@
 {% include css/default.css %}
 
 {% include css/nav.css %}
+
+{% include css/gallery.css %}
