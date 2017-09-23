@@ -1,0 +1,13 @@
+body {
+  align-items: center;
+  background-color: whitesmoke;
+  color: #444444;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 95%;
+}

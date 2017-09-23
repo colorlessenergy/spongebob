@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-{% include header.html %}
 
-{% include gallery.html %}
+<div class="container">
+  {% include header.html %}
+
+  {% include preview.html %}
+  {% include gallery.html %}
 
 
-{% include about.html %}
+  {% include about.html %}
 
-{% include gallery-friends.html %}
+  {% include gallery-friends.html %}
 
-{% include pagination.html %}
+  {% include pagination.html %}
+</div>
 
 {% include footer.html %}

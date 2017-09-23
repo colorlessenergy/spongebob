@@ -1,4 +1,4 @@
-# _SpongeBOb website_
+# _SpongeBob website_
 #### By Brian "colorlessenergy" Munoz
 
 

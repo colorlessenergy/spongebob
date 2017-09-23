@@ -5,22 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>spongebob</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
 </head>
 <body>
+  <div class="container">
   <header>
   <nav>
   <h1>SPONGEBOB</h1>
+  <ul class="main-nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="https://github.com/colorlessenergy">My Work</a></li>
+    <li><a href="http://www.nick.com/spongebob-squarepants/">SPONGEBOB</a></li>
+  </ul>
+  <div class="container-menu" onclick="toggleMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+</nav>
+<div class="toggle-nav hide-nav">
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="https://github.com/colorlessenergy">My Work</a></li>
     <li><a href="http://www.nick.com/spongebob-squarepants/">SPONGEBOB</a></li>
   </ul>
-</nav>
+</div>
 
 </header>
 
 
-<section>
+  <section class="preview">
+  <h2>Learning through experience -</h2>
+  <h2>building decent looking websites</h2>
+</section>
+
+  <section>
   
     <div class="gallery" style="background-image: url(img/image1.jpg)">
       <h4>first pic</h4>
@@ -41,7 +62,7 @@
 
 
 
-<aside>
+  <aside>
   <p><span>-</span> what I do</p>
   <div>
     <h2>I am a Web Developer that builds and design websites</h2>
@@ -50,7 +71,7 @@
 </aside>
 
 
-<section>
+  <section>
   
     <div style="background-image: url(img/gary.png)">
 
@@ -79,7 +100,7 @@
 </section>
 
 
-<section>
+  <section>
   <div>
     <p>next</p>
     <h3>View My Work</h3>
@@ -87,6 +108,7 @@
   </div>
 </section>
 
+</div>
 
 <footer>
   <section>
