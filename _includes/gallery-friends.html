@@ -1,0 +1,9 @@
+<section>
+  {% for img in site.data.spongebob-friends %}
+    <div style="background-image: url({{ img.src }})">
+
+      <h3>{{ img.title }}</h3>
+      <p> {{ img.title }} </p>
+    </div>
+  {% endfor %}
+</section>
