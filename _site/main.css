@@ -121,10 +121,8 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
   display: flex;
   height: 400px;
   margin: 10px 0;
-}
-
-.gallery-img {
   position: relative;
+
 }
 
 .gallery-img:before {
@@ -136,17 +134,28 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
   left:0;
   width:100%;
   height:100%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .gallery .gallery-img div {
-  color: #373737;
+  color: #fff;
   margin: 0 0 20px 20px;
 }
 
+
+.gallery .gallery-img div h3 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+}
+
 .gallery .gallery-img div p {
+  font-size: 25px;
+  letter-spacing: 1px;
   margin-top: 0;
-  font-size: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -265,5 +274,34 @@ aside .dash div {
   width:100%;
   height:100%;
   z-index: 0;
+}
+
+
+
+footer {
+  background-color: #161616;
+  color: #c9c7c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer section {
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li:first-child {
+  margin-bottom: 10px;
 }
 

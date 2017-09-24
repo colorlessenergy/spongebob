@@ -1,0 +1,26 @@
+footer {
+  background-color: #161616;
+  color: #c9c7c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer section {
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li:first-child {
+  margin-bottom: 10px;
+}
