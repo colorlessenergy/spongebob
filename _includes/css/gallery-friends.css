@@ -1,0 +1,41 @@
+.pics .pics-img {
+  align-items: flex-start;
+  background-position: center;
+  display: flex;
+  height: 400px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.pics .pics-img div {
+  color: #fff;
+  margin: 20px 0 0 20px;
+}
+
+.pics .pics-img div h3 {
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.pics .pics-img div p {
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.pics .pics-img:before {
+  position: absolute;
+  background-color: rgba(0,0,0,0.3);
+  content:" ";
+  display: block;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 0;
+}

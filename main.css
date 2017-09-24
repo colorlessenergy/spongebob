@@ -10,3 +10,5 @@
 {% include css/pagination.css %}
 
 {% include css/about.css %}
+
+{% include css/gallery-friends.css %}
