@@ -119,8 +119,25 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
   align-items: flex-end;
   background-position: center;
   display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
   height: 400px;
   margin: 10px 0;
+}
+
+.gallery-img {
+  position: relative;
+}
+
+.gallery-img:before {
+  position: absolute;
+  background-color: rgba(0,0,0,0.3);
+  content:" ";
+  display: block;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
 }
 
 .gallery .gallery-img div {
@@ -131,5 +148,69 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
 .gallery .gallery-img div p {
   margin-top: 0;
   font-size: 30px;
+}
+
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+
+aside {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+aside .button {
+  background-color: #222;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 150px;
+}
+
+aside .button a {
+  align-items: center;
+  display: flex;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  justify-content: space-around;
+  letter-spacing: 1px;
+  text-decoration: none;
+  width: 100%;
+
+}
+
+aside .button a span {
+  font-size: 25px;
+  color: #eece21;
+  margin: 0 10px;
+}
+
+aside .dash p {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+aside .container-div {
+  display: flex;
+  justify-content: center;
+}
+
+aside .dash {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+aside .dash div {
+  background-color: black;
+  height: 2px;
+  width: 32px;
 }
 

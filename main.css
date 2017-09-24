@@ -6,3 +6,7 @@
 {% include css/nav.css %}
 
 {% include css/gallery.css %}
+
+{% include css/pagination.css %}
+
+{% include css/about.css %}

@@ -1,0 +1,54 @@
+aside {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+aside .button {
+  background-color: #222;
+  display: inline-block;
+  padding: 5px 10px;
+  width: 150px;
+}
+
+aside .button a {
+  align-items: center;
+  display: flex;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  justify-content: space-around;
+  letter-spacing: 1px;
+  text-decoration: none;
+  width: 100%;
+
+}
+
+aside .button a span {
+  font-size: 25px;
+  color: #eece21;
+  margin: 0 10px;
+}
+
+aside .dash p {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+aside .container-div {
+  display: flex;
+  justify-content: center;
+}
+
+aside .dash {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+aside .dash div {
+  background-color: black;
+  height: 2px;
+  width: 32px;
+}
