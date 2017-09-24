@@ -1,6 +1,17 @@
 .pagination {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 300px;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.pagination p, .pagination h3 {
+  letter-spacing: 1px;
+}
+
+.pagination .arrow {
+  color: #eece21;
+  font-size: 30px;
+  margin: 0;
 }
