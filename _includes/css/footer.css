@@ -24,3 +24,18 @@ footer ul {
 footer ul li:first-child {
   margin-bottom: 10px;
 }
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  footer section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    height: 250px;
+  }
+
+  footer section:last-child {
+    margin-left: 10px;
+  }
+
+}

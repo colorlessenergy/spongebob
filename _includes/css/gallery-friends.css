@@ -39,3 +39,12 @@
   height:100%;
   z-index: 0;
 }
+
+/*tablet layout*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .pics .pics-img {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
