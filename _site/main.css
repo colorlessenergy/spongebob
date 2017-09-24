@@ -158,6 +158,20 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
   z-index: 1;
 }
 
+@media only screen and (min-width: 961px) {
+  .gallery {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .gallery .gallery-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 50%;
+  }
+}
+
 
 .pagination {
   align-items: center;
@@ -175,6 +189,14 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
   color: #eece21;
   font-size: 30px;
   margin: 0;
+}
+
+
+@media only screen and (min-width: 961px) {
+  .pagination {
+    height: 350px;
+  }
+
 }
 
 
@@ -233,6 +255,13 @@ aside .dash div {
   width: 32px;
 }
 
+@media only screen and (min-width: 961px) {
+  aside .container-div {
+    justify-content: initial;
+    margin-left: 50px;
+  }
+}
+
 
 .pics .pics-img {
   align-items: flex-start;
@@ -285,6 +314,14 @@ aside .dash div {
   }
 }
 
+@media only screen and (min-width: 961px) {
+  .pics .pics-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 
 
 footer {
@@ -298,11 +335,20 @@ footer {
 
 footer a {
   color: #fff;
+  transition: color ease 1s;
+}
+
+footer a:hover {
+  color: #b2a80e;
 }
 
 footer section {
   margin-left: 10px;
   letter-spacing: 0.5px;
+}
+
+footer section h3 {
+  font-size: 10px;
 }
 
 footer ul {
@@ -327,5 +373,21 @@ footer ul li:first-child {
     margin-left: 10px;
   }
 
+}
+
+@media only screen and (min-width: 961px) {
+  footer section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    height: 250px;
+  }
+
+  footer section:last-child div {
+    color: #393939;
+    font-size: 10px;
+    margin-left: 50px;
+  }
 }
 

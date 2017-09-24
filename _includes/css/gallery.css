@@ -40,3 +40,17 @@
   position: relative;
   z-index: 1;
 }
+
+@media only screen and (min-width: 961px) {
+  .gallery {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .gallery .gallery-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 50%;
+  }
+}

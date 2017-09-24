@@ -9,11 +9,20 @@ footer {
 
 footer a {
   color: #fff;
+  transition: color ease 1s;
+}
+
+footer a:hover {
+  color: #b2a80e;
 }
 
 footer section {
   margin-left: 10px;
   letter-spacing: 0.5px;
+}
+
+footer section h3 {
+  font-size: 10px;
 }
 
 footer ul {
@@ -38,4 +47,20 @@ footer ul li:first-child {
     margin-left: 10px;
   }
 
+}
+
+@media only screen and (min-width: 961px) {
+  footer section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    height: 250px;
+  }
+
+  footer section:last-child div {
+    color: #393939;
+    font-size: 10px;
+    margin-left: 50px;
+  }
 }
