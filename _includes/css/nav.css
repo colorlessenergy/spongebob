@@ -89,6 +89,10 @@ nav ul li a:hover, .toggle-nav ul li a:hover {
   height: 150px;
 }
 
+.preview h2 {
+  line-height: 22px;
+}
+
 @media screen and (min-width: 800px) {
   .container-menu {
     display: none;
